@@ -1,0 +1,19 @@
+title = "Codex"
+baseURL = "https://example.com"
+languageCode = "en-us"
+
+# This is just to get the exampleSite to work with the theme 
+# in this repository. Don't mimic this. When using the theme
+# you should place it in themes/codex and list theme = "codex"
+theme = "hugo-theme-codex"
+themesDir = "../../"
+
+
+
+[params]
+  # This will show the twitter icon which will link to twitter.com/your-twitter-handle
+  # You can omit the @ symbol
+  twitter = "your-twitter-handle"
+  # This will show the github icon which will link to github.com/your-github-handle
+  # You can omit the @ symbol
+  github = "your-github-handle"
