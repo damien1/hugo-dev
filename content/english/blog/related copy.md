@@ -7,7 +7,7 @@ tags:
 - featured
 - pirate
 featured: true
-series: Lorem Ipsum
+series: My Lorem Ipsum
 type: "post"
 ---
 

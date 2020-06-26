@@ -5,7 +5,7 @@ tags:
 - Farm
 - Animals
 draft: false
-series: Lorem Ipsum
+series: My Lorem Ipsum
 ---
 
 Petting zoo bulls, Ducks in cabbage on, cauliflower irrigation Seeder onion. Apples ducks straw, quail a ostriches donkey, hay hook cucumbers. Fertilizer buzz, pur.

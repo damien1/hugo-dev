@@ -5,7 +5,7 @@ tags:
 - Farm
 - Animals
 draft: false
-series: Lorem Ipsum
+series: My Lorem Ipsum
 ---
 
 Chicken cow, calf donkey duck. Cat at pineapples pigeons. Coo with rabbits ect. Bulls at rose garden cucumbers mice sunflower wheat in pig. Outhouse at nails mower. Outhouse at nails mower. Ewes fox, hay hook hay manure, John Deere radish barn, a hay lof.
