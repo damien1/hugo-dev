@@ -1,9 +1,9 @@
 ################################# Default configuration ###################
-baseURL = "https://examplesite.com"
+baseURL = "http://dev.damien"
 title = "Airspace | Creative Agency Hugo Template"
-theme = "airspace-hugo"
+theme = ["airspace-hugo","shortcode"]
 # post pagination
-paginate = "4"
+paginate = "30"
 # post excerpt
 summaryLength = "30"
 # disqus short name
@@ -11,6 +11,10 @@ disqusShortname = "" # get your shortname form here : https://disqus.com
 # disable language
 disableLanguages = []
 
+[taxonomies]
+    category = "categories"
+    series = "series"
+    tag = "tags"
 
 #################################### Plugins ##############################
 
