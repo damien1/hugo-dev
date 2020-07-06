@@ -6,3 +6,6 @@ Thumbs.db
 # IDEs
 .vscode
 public/
+
+themes/
+!themes/shortcode/*

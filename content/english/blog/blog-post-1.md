@@ -8,7 +8,7 @@ categories: ["Company News"]
 tags: ["Advice","Technology"]
 description: "this is meta description"
 draft: false
-type: "post"
+type: "home"
 ---
 
 

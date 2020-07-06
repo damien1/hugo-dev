@@ -5,7 +5,7 @@ draft: false
 tags: 
 - shortcodes
 - featured
-- pirate
+- pirates
 featured: true
 series: My Lorem Ipsum
 type: "post"

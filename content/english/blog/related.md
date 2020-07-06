@@ -5,7 +5,9 @@ draft: false
 tags: 
 - shortcodes
 - featured
+- pirates
 featured: true
+image : https://res.cloudinary.com/damien1/image/upload/v1591212132/blog/good-fast-cheap_sfdiue.jpg
 ---
 
 ## Hello world
