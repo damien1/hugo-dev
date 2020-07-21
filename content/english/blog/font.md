@@ -14,18 +14,30 @@ Measured fer yer chains hogshead gangplank pink pirate American Main brigantine 
 
 ## Font
 
-{{< typography font="monoton" size="30px" style="italic" weight="bold" >}}
+{{< typography font="Monoton" size="30px" style="italic" weight="bold" >}}
 You are awesome.
 You're even better!
 What else ...
 {{< /typography >}}
 
-{{< typography font="Roboto" size="30px" weight="lighter" >}}
+Rowdies
+{{< typography font="Rowdies" size="30px" weight="lighter" >}}
 You are awesome.</br>
 You're even better!
 What else ...
 {{< /typography >}}
 
 
-Some afterword
+Some Pacifico
+{{< typography font="Pacifico" size="30px" weight="lighter" >}}
+You are awesome.</br>
+You're even better!
+What else ...
+{{< /typography >}}
 
+Monoton again...
+{{< typography font="Monoton" size="30px" style="italic" weight="bold" >}}
+You are awesome.
+You're even better!
+What else ...
+{{< /typography >}}
