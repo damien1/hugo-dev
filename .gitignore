@@ -8,4 +8,6 @@ Thumbs.db
 public/
 
 themes/
-!themes/shortcode/*
+!themes/*
+
+tests/__pycache__/*
