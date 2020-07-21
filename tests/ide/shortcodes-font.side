@@ -1,0 +1,152 @@
+{
+  "id": "fec22afe-55aa-413f-aac2-651653622031",
+  "version": "2.0",
+  "name": "shortcodes",
+  "url": "http://localhost:9081",
+  "tests": [{
+    "id": "dba6f940-f4cc-4f10-9b14-02fdab63648e",
+    "name": "basic",
+    "commands": [{
+      "id": "69c2c5d1-382c-4b99-b20b-e34d83e58ba3",
+      "comment": "",
+      "command": "open",
+      "target": "/",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "c95f5cda-568f-45f2-a745-44c756a0faa7",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1000x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "a1fbb033-dd76-44a5-af47-5bf70e97e6de",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "Airspace | Creative Agency Hugo Template",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "d480af4f-bff8-454f-8544-2cb4d43badf2",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "400x600",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "59270d23-14f6-4dac-bfb8-5c9ec073c31f",
+      "comment": "",
+      "command": "click",
+      "target": "css=.navbar-toggle",
+      "targets": [
+        ["css=.navbar-toggle", "css:finder"],
+        ["xpath=//button[@type='button']", "xpath:attributes"],
+        ["xpath=//button", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "c77ed8fb-32e9-408f-b923-4461fc585484",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'About')]",
+      "targets": [
+        ["css=.nav > li:nth-child(2) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'About')]", "xpath:link"],
+        ["xpath=//div[@id='navigation']/ul/li[2]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost:9081/about']", "xpath:href"],
+        ["xpath=//li[2]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "d01e5d6b-3946-45d2-aca9-916616d11bbd",
+      "comment": "",
+      "command": "assertTitle",
+      "target": "About Our Company",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "4accea0f-599f-40ab-8134-b4fb6f9cdd42",
+      "comment": "",
+      "command": "setWindowSize",
+      "target": "1000x800",
+      "targets": [],
+      "value": ""
+    }, {
+      "id": "1f0783d0-6d2e-49a2-b6f5-b32232288e30",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=//a[contains(text(),'Blog')]",
+      "targets": [
+        ["css=.nav > li:nth-child(5) > a", "css:finder"],
+        ["xpath=//a[contains(text(),'Blog')]", "xpath:link"],
+        ["xpath=//div[@id='navigation']/ul/li[5]/a", "xpath:idRelative"],
+        ["xpath=//a[@href='http://localhost:9081/blog']", "xpath:href"],
+        ["xpath=//li[5]/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "25789d9e-dd23-4e4a-b9e9-413a20b6b78f",
+      "comment": "",
+      "command": "click",
+      "target": "xpath=(//a[@href='http://localhost:9081/blog/font/'])[2]",
+      "targets": [
+        ["css=.widget:nth-child(1) > .media:nth-child(2) > .media-body a", "css:finder"],
+        ["xpath=(//a[contains(text(),'Font')])[2]", "xpath:link"],
+        ["xpath=(//a[@href='http://localhost:9081/blog/font/'])[2]", "xpath:href"],
+        ["xpath=//h4/a", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "602bb6c9-6e98-4a44-bade-3939fa4de213",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-content > div:nth-child(5)",
+      "targets": [
+        ["css=.post-content > div:nth-child(5)", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "19b2202f-6f94-43fb-acce-985bcd5e1768",
+      "comment": "",
+      "command": "click",
+      "target": "css=.post-content > div:nth-child(5)",
+      "targets": [
+        ["css=.post-content > div:nth-child(5)", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "2de31b29-8fb1-400e-9c90-f1728bd2c5a3",
+      "comment": "",
+      "command": "doubleClick",
+      "target": "css=.post-content > div:nth-child(5)",
+      "targets": [
+        ["css=.post-content > div:nth-child(5)", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }, {
+      "id": "14004c0b-721a-4ef9-806c-4154a9db0595",
+      "comment": "",
+      "command": "assertElementPresent",
+      "target": "css=.post-content > div:nth-child(5)",
+      "targets": [
+        ["css=.post-content > div:nth-child(5)", "css:finder"],
+        ["xpath=//div[3]/div", "xpath:position"]
+      ],
+      "value": ""
+    }]
+  }],
+  "suites": [{
+    "id": "518fbe8f-f03b-4cd2-a66c-a24ea6d97cc9",
+    "name": "Default Suite",
+    "persistSession": false,
+    "parallel": false,
+    "timeout": 300,
+    "tests": ["dba6f940-f4cc-4f10-9b14-02fdab63648e"]
+  }],
+  "urls": ["http://localhost:9081/"],
+  "plugins": []
+}
