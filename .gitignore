@@ -1,3 +1,43 @@
+# Basic gitignore template for Hugo SSG
+#
+# This is a template .gitignore file for git-managed Hugo projects.
+#
+# Fact: you don't want Hugo core files, or your server-specific
+# configuration files etc., in your project's repository. You just don't.
+#
+# Ignore everything in the root except the "content" directory and "static"
+/*
+!.gitignore
+!*.toml
+!archetypes/
+!config/
+!content/
+!data/
+!layouts/
+!resources/
+!static/
+!tests/
+!themes/
+.DS_Store
+!README.md
+!*.sh
+!docker*
+!*.yml
+!requirements.txt
+
+#and dont host image content
+# static/wp-content/*
+# static/images/*
+
+tests/*
+!tests/*.py
+tests/__*
+!tests/ide/
+!tests/local/*
+!tests/user/*
+tests/local/__*
+tests/user/__*
+tests/__pycache__/*
 
 # OS
 .DS_Store
@@ -5,9 +45,5 @@ Thumbs.db
 
 # IDEs
 .vscode
-public/
 
-themes/
-!themes/*
 
-tests/__pycache__/*
